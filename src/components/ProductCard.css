@@ -1,0 +1,48 @@
+/* ProductCard.css */
+
+.product-card {
+    width: 100%;
+    max-width: 300px;
+    /* Adjust the maximum width as needed */
+    margin: 10px;
+    border: 1px solid #ddd;
+    /* Border color can be adjusted */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    /* Allow the image to adjust its height while maintaining aspect ratio */
+    object-fit: contain;
+    /* Keep the entire image within the container */
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.btn_1,
+.btn_2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Style the star icons if needed */
+.fa-star,
+.fa-star-half-alt {
+    color: gold;
+    /* or any other color you prefer */
+}
